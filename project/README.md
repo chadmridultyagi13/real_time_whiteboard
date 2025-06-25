@@ -5,6 +5,7 @@ This project is a live collaborative whiteboard that lets users draw, write, and
 👤 Author: Mridul Tyagi
 
 ✨ Features
+
 🖊️ Drawing tools: pen, rectangles, circles, text, eraser, color picker
 
 ⚡ Real-time sync via WebSockets
@@ -44,16 +45,24 @@ npm install
 
 Create a .env.local file:
 CONVEX_DEPLOYMENT=""
+
 NEXT_PUBLIC_CONVEX_URL=""
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+
 CLERK_SECRET_KEY=""
+
 NEXT_PUBLIC_LIVE_BLOCKS_DEV_PUBLIC_KEY=""
+
 NEXT_PUBLIC_LIVE_BLOCKS_DEV_SECRET_KEY=""
 
 
 Run the app:
+
 npx convex dev
+
 npm run dev
+
 Visit: http://localhost:3000
 
 Build, share, and collaborate on whiteboards in real time — all from your browser.
