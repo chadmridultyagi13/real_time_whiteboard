@@ -1,5 +1,4 @@
 
-
 🧩 Real-Time Whiteboard App
 This project is a live collaborative whiteboard that lets users draw, write, and interact in real-time. It supports smooth collaboration with drawing tools, real-time sync, and access control features.
 
