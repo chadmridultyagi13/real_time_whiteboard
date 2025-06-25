@@ -1,8 +1,19 @@
 🧩 Real-Time Whiteboard App
 This project is a live collaborative whiteboard that lets users draw, write, and interact in real-time. It supports smooth collaboration with drawing tools, real-time sync, and access control features.
 
+
+
+
+
+
+
 🔗 Live Demo -> https://realtime-boardify.vercel.app/
 👤 Author: Mridul Tyagi
+
+
+
+
+
 
 ✨ Features
 
@@ -20,7 +31,11 @@ This project is a live collaborative whiteboard that lets users draw, write, and
 
 
 
+
+
+
 🛠 Tech Stack
+
 1)Next.js 14 – Full-stack React framework
 
 2)Convex – Real-time backend
@@ -46,7 +61,21 @@ cd your-repo
 npm install
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Create a .env.local file:
+
 1)CONVEX_DEPLOYMENT=""
 
 2)NEXT_PUBLIC_CONVEX_URL=""
@@ -60,11 +89,24 @@ Create a .env.local file:
 6)NEXT_PUBLIC_LIVE_BLOCKS_DEV_SECRET_KEY=""
 
 
+
+
+
+
+
+
+
+
 Run the app:
 
 npx convex dev
 
 npm run dev
+
+
+
+
+
 
 Visit: http://localhost:3000
 
