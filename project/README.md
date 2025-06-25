@@ -14,7 +14,6 @@ This project is a live collaborative whiteboard that lets users draw, write, and
 
 
 
-
 ✨ Features
 
 1)🖊️ Drawing tools: pen, rectangles, circles, text, eraser, color picker
