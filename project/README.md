@@ -6,55 +6,58 @@ This project is a live collaborative whiteboard that lets users draw, write, and
 
 ✨ Features
 
-🖊️ Drawing tools: pen, rectangles, circles, text, eraser, color picker
+1)🖊️ Drawing tools: pen, rectangles, circles, text, eraser, color picker
 
-⚡ Real-time sync via WebSockets
+2)⚡ Real-time sync via WebSockets
 
-🤝 Multi-user collaboration with shareable sessions
+3)🤝 Multi-user collaboration with shareable sessions
 
-🔐 Public/private rooms with edit/view access
+4)🔐 Public/private rooms with edit/view access
 
-💾 Export boards as image or PDF
+5)💾 Export boards as image or PDF
 
-↩️ Undo, redo, and clear canvas
+6)↩️ Undo, redo, and clear canvas
 
 
 
 🛠 Tech Stack
-Next.js 14 – Full-stack React framework
+1)Next.js 14 – Full-stack React framework
 
-Convex – Real-time backend
+2)Convex – Real-time backend
 
-Liveblocks – Multiplayer sync & presence
+3)Liveblocks – Multiplayer sync & presence
 
-Clerk – Authentication & user access
+4)Clerk – Authentication & user access
 
-TailwindCSS + Shadcn/UI – UI and styling
+5)TailwindCSS + Shadcn/UI – UI and styling
 
-Zustand – Lightweight state management
+6)Zustand – Lightweight state management
 
-Radix UI – Headless UI primitives
+7)Radix UI – Headless UI primitives
 
 
 
 ⚙️ Getting Started
+
 git clone https://github.com/your-username/your-repo.git
+
 cd your-repo
+
 npm install
 
 
 Create a .env.local file:
-CONVEX_DEPLOYMENT=""
+1)CONVEX_DEPLOYMENT=""
 
-NEXT_PUBLIC_CONVEX_URL=""
+2)NEXT_PUBLIC_CONVEX_URL=""
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+3)NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
 
-CLERK_SECRET_KEY=""
+4)CLERK_SECRET_KEY=""
 
-NEXT_PUBLIC_LIVE_BLOCKS_DEV_PUBLIC_KEY=""
+5)NEXT_PUBLIC_LIVE_BLOCKS_DEV_PUBLIC_KEY=""
 
-NEXT_PUBLIC_LIVE_BLOCKS_DEV_SECRET_KEY=""
+6)NEXT_PUBLIC_LIVE_BLOCKS_DEV_SECRET_KEY=""
 
 
 Run the app:
